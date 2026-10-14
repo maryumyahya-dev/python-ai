@@ -1,1 +1,1 @@
-print("Hi there!")
+print("Welcome to my Python AI project!")
