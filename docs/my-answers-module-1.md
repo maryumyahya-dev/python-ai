@@ -11,3 +11,14 @@
 
 ## Lesson 1.4
 1.4: Q1 c, Q2 b, Q3 c, Q4 b, Q5 c, Q6 201
+
+## Lesson 1.5
+
+1. What does int(3.9) return?
+   Answer: 3. It cuts off the decimal part and does not round.
+
+2. Why does price = input("Price: ") followed by price * 2 not double the number?
+   Answer: Because input() always returns text (str). We must convert it to a number using int() or float() before doing maths.
+
+3. Is 2nd_model a valid variable name? Fix it.
+   Answer: No. A variable name cannot start with a number. A correct name is model_2.
