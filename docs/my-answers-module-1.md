@@ -22,3 +22,14 @@
 
 3. Is 2nd_model a valid variable name? Fix it.
    Answer: No. A variable name cannot start with a number. A correct name is model_2.
+
+   ## Lesson 1.6
+
+1. What does "Python for AI"[-2:] return?
+   Answer: "AI"
+
+2. Why does "Refund" in "i want a refund" give False, and how do you fix it?
+   Answer: Because Python is case-sensitive. "Refund" has a capital R, while the text has lowercase "refund". We can fix it by using "refund" in text.lower().
+
+3. After name = " ali " and name.strip(), why does print(len(name)) still show 5?
+   Answer: Because strings are immutable and strip() returns a new string. We must save the result with name = name.strip().
