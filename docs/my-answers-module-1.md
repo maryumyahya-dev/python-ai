@@ -45,3 +45,15 @@
 
 3. score = 85. With if score > 50: above elif score > 80:, which message prints, and why?
    Answer: The message in the if block prints because 85 is greater than 50. Python runs the first True block and does not check the elif after that.
+
+   ## Lesson 1.8
+
+1. What does break do, and what happens without it in while True?
+   Answer: break immediately stops the loop. Without break, while True keeps running forever until the program is stopped.
+
+2. Why does "hi" in "which cake?" give True? How do you avoid it?
+   Answer: Because the in operator checks whether "hi" appears anywhere inside the text. To avoid this, use an exact match such as message == "hi" or message == "hello".
+
+3. Why must the complaint rule come before the order rule?
+   Answer: Because a message like "my order is late" contains both "order" and "late". If the order rule comes first, it will answer with the order menu instead of sending the unhappy customer to a human.
+   
