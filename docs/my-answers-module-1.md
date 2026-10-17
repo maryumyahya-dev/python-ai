@@ -33,3 +33,15 @@
 
 3. After name = " ali " and name.strip(), why does print(len(name)) still show 5?
    Answer: Because strings are immutable and strip() returns a new string. We must save the result with name = name.strip().
+
+   ## Lesson 1.7
+
+1. What do 17 // 5 and 17 % 5 return?
+   Answer: 17 // 5 returns 3 because it is whole-number division. 17 % 5 returns 2 because it is the remainder.
+
+2. Why is if task == "code" or "chat": always True? Write the fix.
+   Answer: Because "chat" by itself is a non-empty string, so it is truthy. The correct condition is:
+   if task == "code" or task == "chat":
+
+3. score = 85. With if score > 50: above elif score > 80:, which message prints, and why?
+   Answer: The message in the if block prints because 85 is greater than 50. Python runs the first True block and does not check the elif after that.
