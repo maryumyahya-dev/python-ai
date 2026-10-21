@@ -57,3 +57,13 @@
 3. Why must the complaint rule come before the order rule?
    Answer: Because a message like "my order is late" contains both "order" and "late". If the order rule comes first, it will answer with the order menu instead of sending the unhappy customer to a human.
    
+
+   # Module 1 Quick Checks — Part 2
+
+1.5: Q1 b, Q2 b, Q3 c, Q4 b, Q5 b, Q6 10.0
+
+1.6: Q1 b, Q2 a, Q3 b, Q4 b, Q5 b, Q6 98765.4 PKR for 2,500,000 chats
+
+1.7: Q1 b, Q2 b, Q3 b, Q4 b, Q5 a, Q6 Upgrade
+
+1.8: Q1 b, Q2 b, Q3 d, Q4 a, Q5 b, Q6 3 messages, 1 unanswered
