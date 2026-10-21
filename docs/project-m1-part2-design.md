@@ -32,13 +32,13 @@ The front desk answers common customer questions using free rules, calculates ex
 
 | You type | Expected | Pass? |
 |---|---|---|
-| WHAT are your hours | Hours reply; capitals and spaces handled | |
-| which cake is best? | Fallback, not a greeting | |
-| my order is late | Manager reply | |
-| /quote, 1 of your most expensive item | Delivery fee charged | |
-| /quote, a big order above the free-delivery limit | Delivery free | |
-| /quote, 10 or more items | Discount applied | |
-| /quote, an item not on your menu | Not on our menu, no crash | |
-| A question with "phone" or "cnic" | Local model, cost 0 | |
-| Press Enter with no text | Asks again | |
-| BYE | Goodbye and session report | |
+| WHAT are your hours | Hours reply; capitals and spaces handled |pass |
+| which cake is best? | Fallback, not a greeting |pass |
+| my order is late | Manager reply | pass|
+| /quote, 1 of your most expensive item | Delivery fee charged | pass|
+| /quote, a big order above the free-delivery limit | Delivery free |pass |
+| /quote, 10 or more items | Discount applied |pass |
+| /quote, an item not on your menu | Not on our menu, no crash |pass |
+| A question with "phone" or "cnic" | Local model, cost 0 | pass|
+| Press Enter with no text | Asks again |pass |
+| BYE | Goodbye and session report | pass|
